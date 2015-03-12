@@ -12,5 +12,8 @@
   "type": "library",
    "autoload": {
         "psr-0": { "Cache\\": "" }
-    }
+    },
+  "require":{
+    "alcatraz/config": "1.0.0"
+  }
 }
