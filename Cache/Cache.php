@@ -40,7 +40,7 @@ class Cache {
      * @return void
      */
     public function __construct($folder = null) {
-        $this->setFolder(!is_null($folder) ? $folder : HELPERS_PATH . 'Cache' . DS . 'tmp');
+        $this->setFolder(!is_null($folder) ? $folder : VENDOR . 'alcatraz' . DS . 'cache' . DS . "Cache" . DS . "tmp");
     }
 
     /**
