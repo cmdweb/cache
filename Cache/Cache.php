@@ -6,7 +6,7 @@
      * @author Thiago Belem <contato@thiagobelem.net>
      * @link http://blog.thiagobelem.net/
      */
-namespace Cache;
+namespace Alcatraz\Cache;
 
 class Cache {
 
