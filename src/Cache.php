@@ -34,7 +34,7 @@ class Cache {
      * @return void
      */
     public function __construct($folder = null) {
-        $this->setFolder(!is_null($folder) ? $folder : VENDOR . 'alcatraz' . DS . 'cache' . DS . "Alcatraz" . DS . "Cache" . DS . "tmp");
+        $this->setFolder(!is_null($folder) ? $folder : VENDOR . 'alcatraz' . DS . 'cache' . DS . "src" . DS . "tmp");
     }
 
     /**
@@ -83,7 +83,7 @@ class Cache {
 
         // Cria o arquivo com o conteúdo
         return file_put_contents($filename, $content)
-            OR trigger_error('Não foi possível criar o arquivo de cache', E_USER_ERROR);
+        OR trigger_error('Não foi possível criar o arquivo de cache', E_USER_ERROR);
     }
 
     /**
