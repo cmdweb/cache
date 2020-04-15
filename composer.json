@@ -4,7 +4,7 @@
   "authors": [
     {
       "name": "Gabriel Malaquias",
-      "email": "g@gmalaquias.com"
+      "email": "gemalaquias@gmail.com"
     }
   ],
   "keywords": ["alcatraz", "cache"],
@@ -15,6 +15,5 @@
     },
   "require":{
     "alcatraz/config": "1.1.0"
-  },
-  "target-dir": "Alcatraz"
+  }
 }
